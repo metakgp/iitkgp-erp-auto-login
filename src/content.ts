@@ -104,7 +104,10 @@ const login = async (res: { [key: string]: unknown }) => {
     passwordInput.value = password
     answerInput.value = answer
 
-    displayMessageOnErpLoginPage("Data filled! Click 'Send OTP' to continue", '#4a4a4f')
+    const OTPBtn = document.getElementById("getotp") as HTMLButtonElement
+    OTPBtn.click()
+
+    displayMessageOnErpLoginPage("Data filled! OTP Send", '#4a4a4f')
   })
 
   if (usernameInput) {
@@ -117,6 +120,8 @@ const login = async (res: { [key: string]: unknown }) => {
     // make sure
     usernameInput.value = username
     usernameInput.blur()
+
+    
   }
 }
 
