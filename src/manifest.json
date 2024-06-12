@@ -3,7 +3,7 @@
   "version": "9.1.2",
   "author": "Metakgp",
   "name": "ERP Auto Login - IIT KGP",
-  "description": "Automates the process of login into ERP (https://erp.iitkgp.ac.in) for IIT KGP students instantly 🦊",
+  "description": "Automates the process of login into ERP (https://erp.iitkgp.ac.in) for IIT KGP students instantly",
   "homepage_url": "https://github.com/metakgp/iitkgp-erp-auto-login",
   "icons": {
     "256": "assets/images/ext_icon.png"
