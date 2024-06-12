@@ -126,9 +126,6 @@ const login = async (res: { [key: string]: unknown }) => {
       }
     })
 
-    // const OTPBtn = document.getElementById("getotp") as HTMLButtonElement
-    // OTPBtn.click()
-
     displayMessageOnErpLoginPage("Data filled! OTP Send", '#4a4a4f')
   })
 
