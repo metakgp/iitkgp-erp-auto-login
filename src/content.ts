@@ -126,8 +126,6 @@ const login = async (res: { [key: string]: unknown }) => {
         displayMessageOnErpLoginPage("Error Sending OTP", '#a4000f')
       }
     })
-
-    
   })
 
   if (usernameInput) {
