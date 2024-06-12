@@ -140,8 +140,6 @@ const login = async (res: { [key: string]: unknown }) => {
     // make sure
     usernameInput.value = username
     usernameInput.blur()
-
-    
   }
 }
 
