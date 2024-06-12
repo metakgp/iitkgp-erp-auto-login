@@ -104,8 +104,30 @@ const login = async (res: { [key: string]: unknown }) => {
     passwordInput.value = password
     answerInput.value = answer
 
-    const OTPBtn = document.getElementById("getotp") as HTMLButtonElement
-    OTPBtn.click()
+    const sessionToken = document.getElementById("sessionToken") as HTMLInputElement
+    const reqURL = document.getElementById("requestedUrl") as HTMLInputElement
+    const subButton = document.getElementById("loginFormSubmitButton") as HTMLInputElement
+    const typeee = document.getElementById("typeee") as HTMLInputElement
+    const emailOTP = document.getElementById("email_otp1") as HTMLInputElement
+    const getOTPBtn = document.getElementById("getotp") as HTMLButtonElement
+    fetch("https://erp.iitkgp.ac.in/SSOAdministration/getEmilOTP.htm",{
+      method: 'POST',
+      headers: {
+        'Content-type':'application/x-www-form-urlencoded'
+      },
+      body: `user_id=${username}&password=${password}&answer=${answer}&typeee=${typeee.value}&email_otp=&sessionToken=${sessionToken.value}&requestedUrl=${reqURL.value}`
+    }).then((res) => {
+      if(res.ok){
+        getOTPBtn.innerText = "Resend OTP"
+        emailOTP.classList.remove('hidden')
+        subButton.classList.remove('hidden')
+      }else{
+        displayMessageOnErpLoginPage("Error Sending OTP", '#a4000f')
+      }
+    })
+
+    // const OTPBtn = document.getElementById("getotp") as HTMLButtonElement
+    // OTPBtn.click()
 
     displayMessageOnErpLoginPage("Data filled! OTP Send", '#4a4a4f')
   })
