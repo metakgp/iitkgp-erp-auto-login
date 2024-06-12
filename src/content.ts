@@ -121,9 +121,9 @@ const login = async (res: { [key: string]: unknown }) => {
         getOTPBtn.innerText = "Resend OTP"
         emailOTP.classList.remove('hidden')
         subButton.classList.remove('hidden')
-        displayMessageOnErpLoginPage("Data filled! OTP Send", '#4a4a4f')
+        displayMessageOnErpLoginPage("Successfully requested OTP", '#4a4a4f')
       }else{
-        displayMessageOnErpLoginPage("Error Sending OTP", '#a4000f')
+        displayMessageOnErpLoginPage("Failed to request OTP", '#a4000f')
       }
     })
   })
