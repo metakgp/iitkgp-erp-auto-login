@@ -25,7 +25,7 @@
   "content_scripts": [
     {
       "matches": ["*://erp.iitkgp.ac.in/SSOAdministration/login.htm*"],
-      "ts": ["content.ts"]
+      "js": ["content.js"]
     }
   ],
   "web_accessible_resources": [
