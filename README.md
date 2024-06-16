@@ -21,7 +21,7 @@
      <img width="140" alt="image" src="./src/assets/images/ext_icon.png">
   </a>
 
-  <h3 align="center">iitkgp-erp-auto-login</h3>
+  <h3 align="center">ERP Auto Login - IITKGP</h3>
 
   <p align="center">
   <!-- UPDATE -->
