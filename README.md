@@ -67,13 +67,6 @@ ERP Auto Login is a chrome/ firefox extension which can be added to the browser.
 
 <div id="supports"></div>
 
-### Supports:
-<!-- UPDATE -->
-1. Shells
-    * `bash`
-    * `zsh`
-2. OS(s)
-    * any `*nix`[`GNU+Linux` and `Unix`]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
