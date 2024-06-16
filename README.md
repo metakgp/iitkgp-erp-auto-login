@@ -192,7 +192,7 @@ Screenshots of the extension
 The currently active maintainer(s) of this project.
 
 <!-- UPDATE -->
-- [NAME](https://github.com/GITHUB_USERNAME)
+- [Arpit Bhardwaj](https://github.com/proffapt)
 
 ### Creator(s)
 
