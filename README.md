@@ -27,8 +27,6 @@
   <!-- UPDATE -->
     Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
     <br />
-    <a href="https://UPDATE.metakgp.org">Website</a>
-    ·
     <a href="https://github.com/proffapt/iitkgp-erp-auto-login/issues">Request Feature / Report Bug</a>
   </p>
 </div>
