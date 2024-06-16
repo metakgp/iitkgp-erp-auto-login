@@ -39,7 +39,6 @@
 <summary>Table of Contents</summary>
 
 - [About The Project](#about-the-project)
-  - [Supports](#supports)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
