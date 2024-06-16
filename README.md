@@ -1,100 +1,103 @@
-<p align="center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
-    <img src="./src/assets/images/ext_icon.png" alt="ERP Auto Login - IITKGP logo" width="64" height="64">
+<div id="top"></div>
+
+<!-- PROJECT SHIELDS -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links-->
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Wiki][wiki-shield]][wiki-url]
+
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<!-- UPDATE -->
+<div align="center">
+  <a href="https://github.com/metakgp/iitkgp-erp-auto-login">
+     <img width="140" alt="image" src="./src/assets/images/ext_icon.png">
   </a>
-</p>
 
-<h3 align="center">ERP Auto Login - IITKGP</h3>
+  <h3 align="center">iitkgp-erp-auto-login</h3>
 
-<p align="center">
-  Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
-  <br>
-  <a href="https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/issues/new">Report a bug</a>
-  ·
-  <a href="https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/issues/new">Request feature</a>
-  ·
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/reviews">Feedback</a>
-</p>
-
-![Cover](/screenshots/cover_new.png)
-
-# ERP Auto Login - IITKGP
-
-Our default branch `master` is the source code to the recent stable release. Want to test beta versions? Head to the [`develop` branch](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/tree/develop) to view the latest updates and features before the official release.
-
-> This extension `never` shares your credentials. It stays locally in your browser itself using the browser API [`storage.local`](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/storage/local) by mozilla.
-
-## Table of contents
-
-- [ERP Auto Login - IITKGP](#erp-auto-login---iitkgp)
-  - [Table of contents](#table-of-contents)
-  - [Status](#status)
-  - [Why Us?](#why-us)
-  - [Permissions Used](#permissions-used)
-  - [Installation](#installation)
-  - [Bugs and feature requests](#bugs-and-feature-requests)
-  - [Previous releases](#previous-releases)
-  - [Todos](#todos)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Thanks](#thanks)
-  - [Screenshots](#screenshots)
-  - [Copyright and License](#copyright-and-license)
-  - [Creator](#creator)
-
-## Status
-
-[![Release](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/actions/workflows/release.yml/badge.svg)](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/actions/workflows/release.yml)
-[![CodeQL](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/actions/workflows/github-code-scanning/codeql)
-![Chrome Add-on](https://img.shields.io/chrome-web-store/users/hianmedhblomknonbbmalncjjffdligl?label=chrome-users)
-![Mozilla Add-on](https://img.shields.io/amo/v/%7Bfa21e38a-41b3-4891-8f6b-8ba837e2df65%7D)
-![Mozilla Add-on](https://img.shields.io/amo/users/%7Bfa21e38a-41b3-4891-8f6b-8ba837e2df65%7D?label=mozilla-users)
-![Mozilla Add-on](https://img.shields.io/amo/dw/%7Bfa21e38a-41b3-4891-8f6b-8ba837e2df65%7D)
-![GitHub](https://img.shields.io/github/license/siddsarkar/iitkgp-erp-auto-login-extension)
-![Mozilla Add-on](https://img.shields.io/amo/rating/%7Bfa21e38a-41b3-4891-8f6b-8ba837e2df65%7D)
-![Mozilla Add-on](https://img.shields.io/amo/stars/%7Bfa21e38a-41b3-4891-8f6b-8ba837e2df65%7D)
-![Code Style](https://img.shields.io/badge/code%20style-prettier-ff69b4)
-
-## Why Us?
-
-- Local only extension (serverless)
-- No fancy permissions, minimum [permissions](#permissions-used) used to work.
-- Light on browser, size ~45-50 kilobytes
-- Updates every 2 months
-- Open source and documented code
-
-## Permissions Used
-
-- [Storage Local](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/storage/local) API by Mozilla.
-- Access to [erp.iitkgp.ac.in](https://erp.iitkgp.ac.in) to run script for automatic login
-
-## Installation
-
-- From Firefox/Chrome Stores (recommended)
-  <p align="left">
-      <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
-          <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="ERP Auto Login - IITKGP logo" height="58">
-      </a>
-      <a href="https://chrome.google.com/webstore/detail/erp-auto-login-iitkgp/hianmedhblomknonbbmalncjjffdligl">
-          <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IITKGP logo">
-      </a>
+  <p align="center">
+  <!-- UPDATE -->
+    Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
+    <br />
+    <a href="https://UPDATE.metakgp.org">Website</a>
+    ·
+    <a href="https://github.com/proffapt/iitkgp-erp-auto-login/issues">Request Feature / Report Bug</a>
   </p>
+</div>
 
-  > For android you can use extensions on the [Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en&gl=US) version of Firefox. [follow this article](https://blog.mozilla.org/addons/2020/09/29/expanded-extension-support-in-firefox-for-android-nightly/) to set it up.
 
-- From GitHub
+<!-- TABLE OF CONTENTS -->
+<details>
+<summary>Table of Contents</summary>
 
-  - [Click here](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/releases) to download the latest release `.xpi` for firefox and `.crx` for chrome
-  - Load the extension in `Firefox` as:
-    1. Open Add-on Manager from options (or) by pressing <kbd>Ctrl/Cmd+Shift+A</kbd> on Widows/Mac
-    2. Click the gear icon ⚙️ in the upper-right area of the Add-on Manager Extensions panel.
-    3. Select Install Add-on from file... from the menu, then find and select the dowwloaded (.xpi) file.
-  - Load the extension in `Chrome` as:
-    1. Goto `chrome://extensions/` in your chrome browser
-    2. Enable developer mode by turning the switch on from the top right corner of the chrome browser
-    3. Click on load unpacked and find and select the dowwloaded (.crx) file.
+- [About The Project](#about-the-project)
+  - [Supports](#supports)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+  - [Maintainer(s)](#maintainers)
+  - [creators(s)](#creators)
+- [Additional documentation](#additional-documentation)
 
-- Build from source (for development)
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<!-- UPDATE -->
+<div align="center">
+  <a href="https://github.com/metakgp/iitkgp-erp-auto-login">
+    <img width="80%" alt="image" src="./screenshots/cover_new.png">
+  </a>
+</div>
+
+ERP Auto Login is a chrome/ firefox extension which can be added to the browser. The extension stores the users confidentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the otp to the email, the user only need to fill up the OTP and can login.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<div id="supports"></div>
+
+### Supports:
+<!-- UPDATE -->
+1. Shells
+    * `bash`
+    * `zsh`
+2. OS(s)
+    * any `*nix`[`GNU+Linux` and `Unix`]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
+
+To set up a local instance of the application, follow the steps below.
+
+### Prerequisites
+The following dependencies are required to be installed for the project to function properly:
+<!-- UPDATE -->
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+* web-ext
+  ```sh
+  npm install --global web-ext
+  ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+- #### Build from source (Development)
 
   1. Clone the repository
      ```bash
@@ -106,71 +109,121 @@ Our default branch `master` is the source code to the recent stable release. Wan
      ```
   3. Install dependencies
      ```bash
-     yarn install
+     npm install
      ```
   4. Build the extension and watch for changes
      ```bash
-     yarn dev:firefox # for firefox
-     yarn dev:chrome # (or) for chrome
+     npm run start
      ```
-  5. The above step will create a `chrome` or a `firefox` folder with the extension in it.
+  5. The above step will create a `addon` folder with the extension in it.
+      ```bash
+      cd addon
+      ```
+
   6. Run the extension using [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) as below
      ```bash
-     npm install --global web-ext # install web-ext globally (once only)
      web-ext run # run the extension for firefox
      web-ext run -t chromium # (or) run the extension for chrome
      ```
   7. Check that the extension is loaded by opening the extensions page in Firefox `about:addons` or in Chrome `chrome://extensions/`.
 
-## Bugs and feature requests
+- #### Build from source (Deployment)
 
-Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/issues/new).
+  1. Clone the repository
+     ```bash
+     git clone https://github.com/siddsarkar/iitkgp-erp-auto-login-extension.git
+     ```
+  2. Cd into the repository
+     ```bash
+     cd iitkgp-erp-auto-login-extension
+     ```
+  3. Install dependencies
+     ```bash
+     npm install
+     ```
+  4. Build the extension and watch for changes
+     ```bash
+     npm run build-prod
+     ```
+  6. The above step will create a `addon` folder with the extension in it.
 
-## Previous releases
+ 
 
-You can find all our [previous releases](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/releases) on releases page of the github repo or directly from [AMO Website](https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/versions/)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Todos
 
-- [x] Add a reset warning
-- [x] Add autofill mode
-- [x] Show Changelogs on update
-- [ ] Add Overlay during autofill, show animation loader
-- [ ] Multiple users support
-- [ ] Add Uninstall, Install pages to show
-
-## Contributing
-
-For Contributing to this project please open a pull request describing the changes or features with proper documentation.
-
-Editor preferences are available in the [editor config](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
-
-## Versioning
-
-[The Semantic Versioning guidelines](https://semver.org/) is followed as far as versioning is concerned.
-
-See [the Releases section of our GitHub project](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension/releases) for changelogs for each release version of this extension.
-
-## Thanks
-
-Thanks to [vs code](https://code.visualstudio.com/) and [web-ext](https://www.npmjs.com/package/web-ext) for providing the environment that allowed us to develop and test in real browsers!
-
-## Screenshots
+<!-- USAGE EXAMPLES -->
+## Usage
+<!-- UPDATE -->
+Screenshots of the extension
 
 | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(1).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(7).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(2).png>) |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(5).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(4).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(3).png>) |
 
-## Copyright and License
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To the extent possible under law, [Siddhartha Sarkar](https://github.com/siddsarkar/iitkgp-erp-auto-login-extension) has waived all copyright and related or neighboring rights to ERP Auto Login - IITKGP. This work is published from: India.
+## Contact
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+<p>
+📫 Metakgp -
+<a href="https://slack.metakgp.org">
+  <img align="center" alt="Metakgp's slack invite" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/slack.svg" />
+</a>
+<a href="mailto:metakgp@gmail.com">
+  <img align="center" alt="Metakgp's email " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/gmail.svg" />
+</a>
+<a href="https://www.facebook.com/metakgp">
+  <img align="center" alt="metakgp's Facebook" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/facebook.svg" />
+</a>
+<a href="https://www.linkedin.com/company/metakgp-org/">
+  <img align="center" alt="metakgp's LinkedIn" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/linkedin.svg" />
+</a>
+<a href="https://twitter.com/metakgp">
+  <img align="center" alt="metakgp's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
+</a>
+<a href="https://www.instagram.com/metakgp_/">
+  <img align="center" alt="metakgp's Instagram" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/instagram.svg" />
+</a>
+</p>
 
-## Creator
+### Maintainer(s)
 
-<img src="https://siddsarkar.github.io/assets/images/profile.jpg" style="height: 60px !important; border-radius: 50%;">
+The currently active maintainer(s) of this project.
 
-[**Siddhartha Sarkar**](https://siddsarkar.github.io)
+<!-- UPDATE -->
+- [NAME](https://github.com/GITHUB_USERNAME)
 
-[![Buy Me A Coffee](https://img.shields.io/badge/%E2%98%95-buymeacofee-yellow)](https://www.buymeacoffee.com/siddsarkar)
+### Creator(s)
+
+Honoring the original creator(s) and ideator(s) of this project.
+
+<!-- UPDATE -->
+- [Siddhartha Sarkar](https://github.com/siddsarkar)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Additional documentation
+
+  - [License](/LICENSE)
+  - [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
+  - [Security Policy](/.github/SECURITY.md)
+  - [Contribution Guidelines](/.github/CONTRIBUTING.md)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/metakgp/iitkgp-erp-auto-login.svg?style=for-the-badge
+[contributors-url]: https://github.com/metakgp/iitkgp-erp-auto-login/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/metakgp/iitkgp-erp-auto-login.svg?style=for-the-badge
+[forks-url]: https://github.com/metakgp/iitkgp-erp-auto-login/network/members
+[stars-shield]: https://img.shields.io/github/stars/metakgp/iitkgp-erp-auto-login.svg?style=for-the-badge
+[stars-url]: https://github.com/metakgp/iitkgp-erp-auto-login/stargazers
+[issues-shield]: https://img.shields.io/github/issues/metakgp/iitkgp-erp-auto-login.svg?style=for-the-badge
+[issues-url]: https://github.com/metakgp/iitkgp-erp-auto-login/issues
+[license-shield]: https://img.shields.io/github/license/metakgp/iitkgp-erp-auto-login.svg?style=for-the-badge
+[license-url]: https://github.com/metakgp/iitkgp-erp-auto-login/blob/master/LICENSE
+[wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
+[wiki-url]: https://wiki.metakgp.org
+[slack-url]: https://slack.metakgp.org
