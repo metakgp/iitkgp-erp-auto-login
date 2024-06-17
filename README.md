@@ -129,7 +129,7 @@ The following dependencies are required to be installed for the project to funct
 
   1. Clone the repository
      ```bash
-     git clone https://github.com/siddsarkar/iitkgp-erp-auto-login-extension.git
+     git clone https://github.com/metakgp/iitkgp-erp-auto-login.git
      ```
   2. Cd into the repository
      ```bash
