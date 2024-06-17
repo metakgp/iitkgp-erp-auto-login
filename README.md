@@ -31,18 +31,28 @@
 </div>
 
 
+<p align="Center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
+    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="ERP Auto Login - IIT KGP logo" height="58">
+  </a>
+  <a href="https://chrome.google.com/webstore/detail/erp-auto-login-iitkgp/hianmedhblomknonbbmalncjjffdligl">
+    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IIT KGP logo">
+  </a>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 <details>
 <summary>Table of Contents</summary>
 
 - [About The Project](#about-the-project)
-- [Getting Started](#getting-started)
+- [Building from source](#building-from-source)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Development](#development)
+  - [Deployment](#deployment)
 - [Usage](#usage)
 - [Contact](#contact)
   - [Maintainer(s)](#maintainers)
-  - [creators(s)](#creators)
+  - [Creators(s)](#creators)
 - [Additional documentation](#additional-documentation)
 
 </details>
@@ -58,19 +68,6 @@
 </div>
 
 ERP Auto Login is a browser extension supporting both chrome and firefox. The extension stores the users confidentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the OTP to the email, the user only need to fill up the OTP and can login.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Get it from Firefox/ Chrome store
-
-<p align="Center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
-    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="ERP Auto Login - IIT KGP logo" height="58">
-  </a>
-  <a href="https://chrome.google.com/webstore/detail/erp-auto-login-iitkgp/hianmedhblomknonbbmalncjjffdligl">
-    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IIT KGP logo">
-  </a>
-</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -97,11 +94,11 @@ The following dependencies are required to be installed for the project to funct
 
   1. Clone the repository
      ```bash
-     git clone https://github.com/siddsarkar/iitkgp-erp-auto-login-extension.git
+     git clone https://github.com/metakgp/iitkgp-erp-auto-login.git
      ```
   2. Cd into the repository
      ```bash
-     cd iitkgp-erp-auto-login-extension
+     cd iitkgp-erp-auto-login
      ```
   3. Install dependencies
      ```bash
@@ -116,12 +113,11 @@ The following dependencies are required to be installed for the project to funct
       cd addon
       ```
 
-  6. Run the extension using [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) as below
+  6. Run the extension using [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) as below, this starts a new browser window with the extension, this version supports hot reload
      ```bash
      web-ext run # run the extension for firefox
      web-ext run -t chromium # (or) run the extension for chrome
      ```
-  7. Check that the extension is loaded by opening the extensions page in Firefox `about:addons` or in Chrome `chrome://extensions/`.
 
 ### Deployment
 
@@ -141,7 +137,19 @@ The following dependencies are required to be installed for the project to funct
      ```bash
      npm run build-prod
      ```
-  6. The above step will create a `addon` folder with the extension in it.
+  5. The above step will create a `addon` folder with the extension in it.
+
+  6. Adding to Browser:
+      - For Chrome:
+        - Open new tab and type `chrome://extensions` on search bar.
+        - Toggle the **DEVELOPER MODE** on top right corner.
+        - Click **LOAD UNPACKED** option, browse to the cloned folder and select the [addon](./addon) folder.
+    
+      - For Firefox:
+        - Open new tab and type `about:debugging#/runtime/this-firefox` on search bar.
+        - Click on the `Load Temporary Add-on...` button under **Load Temporary Extensions** Section.
+        - Navigate to [addon](./addon) folder in your opened file navigator.
+        - Select the `manifest.json` file inside it and press **open**.
 
  
 
