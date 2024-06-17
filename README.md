@@ -118,6 +118,7 @@ The following dependencies are required to be installed for the project to funct
      web-ext run # run the extension for firefox
      web-ext run -t chromium # (or) run the extension for chrome
      ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Deployment
 
