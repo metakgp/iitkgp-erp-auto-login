@@ -189,7 +189,6 @@ Screenshots of the extension
 
 The currently active maintainer(s) of this project.
 
-<!-- UPDATE -->
 - [Arpit Bhardwaj](https://github.com/proffapt)
 
 ### Creator(s)
