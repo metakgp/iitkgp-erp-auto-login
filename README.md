@@ -21,7 +21,7 @@
      <img width="140" alt="image" src="./src/assets/images/ext_icon.png">
   </a>
 
-  <h3 align="center">ERP Auto Login - IITKGP</h3>
+  <h3 align="center">ERP Auto Login - IIT KGP</h3>
 
   <p align="center">
     Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
