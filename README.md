@@ -92,7 +92,6 @@ The following dependencies are required to be installed for the project to funct
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Building From Source
 
 - #### Development
 
