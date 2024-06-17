@@ -58,7 +58,7 @@
   </a>
 </div>
 
-ERP Auto Login is a chrome/ firefox extension which can be added to the browser. The extension stores the users confidentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the otp to the email, the user only need to fill up the OTP and can login.
+ERP Auto Login is a browser extension supporting both chrome and firefox. The extension stores the users confidentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the OTP to the email, the user only need to fill up the OTP and can login.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
