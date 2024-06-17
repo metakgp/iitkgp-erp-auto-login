@@ -93,7 +93,7 @@ The following dependencies are required to be installed for the project to funct
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-- #### Development
+### Development
 
   1. Clone the repository
      ```bash
