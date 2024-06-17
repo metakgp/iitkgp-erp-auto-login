@@ -24,7 +24,6 @@
   <h3 align="center">ERP Auto Login - IITKGP</h3>
 
   <p align="center">
-  <!-- UPDATE -->
     Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
     <br />
     <a href="https://github.com/metakgp/iitkgp-erp-auto-login/issues">Request Feature / Report Bug</a>
