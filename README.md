@@ -123,7 +123,7 @@ The following dependencies are required to be installed for the project to funct
      ```
   7. Check that the extension is loaded by opening the extensions page in Firefox `about:addons` or in Chrome `chrome://extensions/`.
 
-- #### Deployment
+### Deployment
 
   1. Clone the repository
      ```bash
