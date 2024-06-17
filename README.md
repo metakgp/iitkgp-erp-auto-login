@@ -62,17 +62,20 @@ ERP Auto Login is a chrome/ firefox extension which can be added to the browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Get it from Firefox/ Chrome store
 
-## Getting Started
-- Get it from Firefox/Chrome store
-  <p align="left">
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
-      <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="ERP Auto Login - IITKGP logo" height="58">
-    </a>
-    <a href="https://chrome.google.com/webstore/detail/erp-auto-login-iitkgp/hianmedhblomknonbbmalncjjffdligl">
-      <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IITKGP logo">
-    </a>
-  </p>
+<p align="Center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
+    <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="ERP Auto Login - IITKGP logo" height="58">
+  </a>
+  <a href="https://chrome.google.com/webstore/detail/erp-auto-login-iitkgp/hianmedhblomknonbbmalncjjffdligl">
+    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IITKGP logo">
+  </a>
+</p>
+
+
+## Building from source
+
 - To set up a local instance of the application, follow the steps below.
 
 ### Prerequisites
