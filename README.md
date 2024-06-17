@@ -133,7 +133,7 @@ The following dependencies are required to be installed for the project to funct
      ```
   2. Cd into the repository
      ```bash
-     cd iitkgp-erp-auto-login-extension
+     cd iitkgp-erp-auto-login
      ```
   3. Install dependencies
      ```bash
