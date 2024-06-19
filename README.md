@@ -15,21 +15,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/metakgp/iitkgp-erp-auto-login">
      <img width="140" alt="image" src="./src/assets/images/ext_icon.png">
   </a>
 
   <h3 align="center">ERP Auto Login - IIT KGP</h3>
-
-  <p align="center">
-    Minimial yet powerful and customizable autologin/autofill extension, for IIT Kharagpur enrolled students.
-    <br />
-    <a href="https://github.com/metakgp/iitkgp-erp-auto-login/issues">Request Feature / Report Bug</a>
-  </p>
-</div>
-
 
 <p align="Center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/erp-auto-login-iitkgp/">
@@ -39,6 +30,14 @@
     <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="ERP Auto Login - IIT KGP logo">
   </a>
 </p>
+
+  <p align="center">
+    Minimial yet powerful and customizable autologin/autofill extension, for IIT KGP students
+    <br />
+    <a href="https://github.com/metakgp/iitkgp-erp-auto-login/issues">Request Feature / Report Bug</a>
+  </p>
+</div>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -67,17 +66,18 @@
   </a>
 </div>
 
-ERP Auto Login is a browser extension supporting both chrome and firefox. The extension stores the users confidentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the OTP to the email, the user only need to fill up the OTP and can login.
+ERP Auto Login is a browser extension supporting both chrome and firefox. The extension stores the users ERP credentials like username, password and security questions and fills them up automatically whenever the user opens the ERP. It also sends the OTP to the email, the user only need to fill up the OTP and continue to login.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Building from source
 
-- To set up a local instance of the application, follow the steps below.
+To set up a local instance of the application, follow the steps below.
 
 ### Prerequisites
+
 The following dependencies are required to be installed for the project to function properly:
-<!-- UPDATE -->
+
 * npm
   ```sh
   npm install npm@latest -g
@@ -86,34 +86,29 @@ The following dependencies are required to be installed for the project to funct
   ```sh
   npm install --global web-ext
   ```
+* Clone the repository and move to the cloned directory
+  ```bash
+  git clone https://github.com/metakgp/iitkgp-erp-auto-login.git
+  cd iitkgp-erp-auto-login
+  ```
+* Install the dependencies
+  ```bash
+  npm install
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ### Development
 
-  1. Clone the repository
-     ```bash
-     git clone https://github.com/metakgp/iitkgp-erp-auto-login.git
-     ```
-  2. Cd into the repository
-     ```bash
-     cd iitkgp-erp-auto-login
-     ```
-  3. Install dependencies
-     ```bash
-     npm install
-     ```
-  4. Build the extension and watch for changes
+  1. Build the extension and watch for changes
      ```bash
      npm run start
      ```
-  5. The above step will create a `addon` folder with the extension in it.
+  2. The above step will create a `addon` folder with the extension in it.
       ```bash
       cd addon
       ```
-
-  6. Run the extension using [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) as below, this starts a new browser window with the extension, this version supports hot reload
+  3. Run the extension using [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) as below, this starts a new browser window with the extension, this version supports hot reload
      ```bash
      web-ext run # run the extension for firefox
      web-ext run -t chromium # (or) run the extension for chrome
@@ -122,25 +117,12 @@ The following dependencies are required to be installed for the project to funct
 
 ### Deployment
 
-  1. Clone the repository
-     ```bash
-     git clone https://github.com/metakgp/iitkgp-erp-auto-login.git
-     ```
-  2. Cd into the repository
-     ```bash
-     cd iitkgp-erp-auto-login
-     ```
-  3. Install dependencies
-     ```bash
-     npm install
-     ```
-  4. Build the extension and watch for changes
+  1. Build the extension and watch for changes
      ```bash
      npm run build-prod
      ```
-  5. The above step will create a `addon` folder with the extension in it.
-
-  6. Adding to Browser:
+     > The above step will create a `addon` folder with the extension in it.
+  3. Adding to Browser:
       - For Chrome:
         - Open new tab and type `chrome://extensions` on search bar.
         - Toggle the **DEVELOPER MODE** on top right corner.
@@ -152,14 +134,11 @@ The following dependencies are required to be installed for the project to funct
         - Navigate to [addon](./addon) folder in your opened file navigator.
         - Select the `manifest.json` file inside it and press **open**.
 
- 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<!-- UPDATE -->
 Screenshots of the extension
 
 | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(1).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(7).png>) | ![](</screenshots/chrome-extension___hianmedhblomknonbbmalncjjffdligl_pages_Popup_index.html%20(2).png>) |
